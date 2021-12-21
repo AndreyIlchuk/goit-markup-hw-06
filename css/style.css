@@ -271,7 +271,12 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
-
+.form-container {
+  margin: 75px 40px 20px 40px;
+}
+.form-input {
+  width: 100%;
+}
 /*peculiarities-seсtion*/
 .section {
   padding: 94px 0;
