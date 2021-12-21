@@ -258,6 +258,19 @@ a {
   background-color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
+.title-modal {
+  width: 448px;
+  height: 23px;
+  margin: 40px 40px 12px 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
 /*peculiarities-seсtion*/
 .section {
