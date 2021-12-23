@@ -74,19 +74,32 @@
                        <use href="./img/symbol-defs.svg#icon-close"></use>
                      </svg>
                    </button>
-                   <p class="title-modal">
+                   <b class="title-modal">
                      Оставьте свои данные, мы вам перезвоним
-                   </p>
-                   <div class="form-container">
-                     <form action=""  id="form">
-                       <label for="name">Имя</label>
-                       <input type="text" class="form-input" name="name" id="name">
+                   </b>
+                    <div class="form-box">
+                     <form class="form-container">
+                      
+                       <label class="form-field">
+                        
+                         <span class="label-modal"> Имя</span>
+                       <input type="text" class="form-input" name="name">
+                       <svg class="modal-icon" width="18" height="18" >
+                         <use href="img/symbol-defs.svg#icon-person-black-18dp-1"></use>
+                       </svg>
+                       </label>
 
-                       <label for="tel">Телефон</label>
-                       <input type="tel" class="form-input" name="tel" id="tel">
+                       <label class="form-field">
+                         Телефон
+                         
+                       <input type="tel" class="form-input" name="tel">
+                       </label>
 
-                        <label for="">Почта</label>
-                       <input type="email" class="form-input" name="emeil" id="emeil">
+                        <label class="form-field">
+                          Почта
+                          <span class="label-modal"></span>
+                       <input type="email" class="form-input" name="emeil">
+                       </label>
                        <button class="form-submit" type="submit">Отправить</button>
                      </form>
                    </div>
@@ -438,6 +451,16 @@
                  </a>
                 </li>
              </ul>
+           </div>
+           <div class="footer-email-input">
+             
+             <form>
+               <b class="title-email-input">Подпишитесь на рассылку</b>
+               <label class="footer-label">
+                
+                 <input type="email" name="email" placeholder="E-mail" class="footer-input">
+               </label>
+             </form>
            </div>
          </section>
     </footer>
