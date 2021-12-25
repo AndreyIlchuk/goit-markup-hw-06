@@ -291,6 +291,7 @@ a {
   border-radius: 4px;
   font-size: 16px;
   margin-top: 12px;
+  padding: 0 10px 0 40px;
   transition: 250ms linear border;
 }
 .form-messeg {
@@ -796,8 +797,11 @@ a {
   margin-left: 93px;
 }
 .footer-form {
+  display: flex;
+  flex-direction: column;
 }
 .footer-label {
+  display: flex;
 }
 .title-email-input {
   font-family: Roboto;
@@ -826,6 +830,8 @@ a {
 .footer-submit {
   width: 200px;
   height: 50px;
+  margin-top: 20px;
+  margin-left: 12px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
