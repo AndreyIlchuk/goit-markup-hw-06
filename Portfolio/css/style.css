@@ -547,3 +547,60 @@ button {
   margin-left: 12px;
   fill: var(--accent-color);
 }
+.footer-email-input {
+  margin-left: 93px;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-label {
+  display: flex;
+}
+.title-email-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-input {
+  display: flex;
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  padding: 16px 17px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+.footer-submit {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-image: url(../img/icon\ send.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 150px;
+}
+.footer-span {
+  margin-left: -29px;
+}

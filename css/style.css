@@ -845,5 +845,8 @@ a {
   background-image: url(../img/icon\ send.svg);
   background-repeat: no-repeat;
   background-position-y: center;
-  background-position-x: 160px;
+  background-position-x: 150px;
+}
+.footer-span {
+  margin-left: -29px;
 }
