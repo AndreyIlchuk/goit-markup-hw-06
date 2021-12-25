@@ -792,13 +792,11 @@ a {
   fill: var(--accent-color);
 }
 .footer-email-input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: 93px;
-  background-color: #2f303a;
 }
-.footerleabel {
+.footer-form {
+}
+.footer-leabel {
 }
 .title-email-input {
   font-family: Roboto;
@@ -811,6 +809,7 @@ a {
   color: #ffffff;
 }
 .footer-input {
+  display: flex;
   margin-top: 20px;
   width: 358px;
   height: 50px;
@@ -820,4 +819,5 @@ a {
   border-radius: 4px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
 }
