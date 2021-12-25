@@ -82,24 +82,36 @@
                       
                        <label class="form-field">
                         
-                         <span class="label-modal"> Имя</span>
-                       <input type="text" class="form-input" name="name">
-                       <svg class="modal-icon" width="18" height="18" >
-                         <use href="img/symbol-defs.svg#icon-person-black-18dp-1"></use>
-                       </svg>
+                         <span class="label-modal">Имя</span>
+                           <input type="text" class="form-input" name="name">
+                            <svg class="modal-icon" width="18" height="18" >
+                             <use href="img/symbol-defs.svg#icon-person"></use>
+                          </svg>
                        </label>
 
                        <label class="form-field">
-                         Телефон
-                         
-                       <input type="tel" class="form-input" name="tel">
+                           <span class="label-modal">Телефон</span> 
+                            <input type="tel" class="form-input" name="tel">
+                            <svg class="modal-icon" width="18" height="18">
+                              <use href="img/symbol-defs.svg#icon-phone"></use>
+                            </svg>
                        </label>
 
                         <label class="form-field">
-                          Почта
-                          <span class="label-modal"></span>
-                       <input type="email" class="form-input" name="emeil">
-                       </label>
+                            <span class="label-modal">Почта</span>
+                              <input type="email" class="form-input" name="emeil">
+                                <svg class="modal-icon" width="18" height="18">
+                                  <use href="img/symbol-defs.svg#icon-email"></use>
+                                </svg>
+                              </label>
+                         <label class="form-field">
+                            <span class="label-modal">Коментарий</span>
+                             <textarea name="user-msg" placeholder="Введите текст" class="form-messeg"></textarea>
+                         </label>
+                         <input type="checkbox" class="policy-chackbox" id="policy-check">
+                         <label class="policy-box" for="policy-check">
+                           Соглашаюсь с рассылкой и принимаю &nbsp;<a href=""> Условия договора</a> 
+                         </label>
                        <button class="form-submit" type="submit">Отправить</button>
                      </form>
                    </div>

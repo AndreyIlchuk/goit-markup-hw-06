@@ -260,6 +260,8 @@ a {
   cursor: pointer;
 }
 .title-modal {
+  display: block;
+  margin-bottom: 20px;
   width: 448px;
   height: 23px;
   font-family: Roboto;
@@ -275,17 +277,32 @@ a {
   margin-top: 12px;
 }
 .form-field {
+  margin-top: 20px;
   display: block;
   margin-bottom: 10px;
   position: relative;
 }
-.form-field input {
+.form-field input,
+.form-messeg {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   font-size: 16px;
   margin-top: 12px;
+  transition: 250ms linear border;
+}
+.form-messeg {
+  resize: none;
+  height: 96px;
+  padding: 12px 16px;
+}
+.form-input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+.form-input:focus + svg {
+  fill: #2196f3;
 }
 .label-modal {
   display: block;
@@ -293,13 +310,77 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
+  font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
+  color: #757575;
+  margin-top: -10px;
 }
 .modal-icon {
   position: absolute;
-  top: 50%;
+  top: 20px;
   left: 10px;
+  transition: 250ms linear fill;
+}
+.form-messeg:placeholder {
+  color: rgba(117, 117, 117, 0, 5);
+}
+.policy-box {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.policy-box a {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.policy-chackbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  border: 0px;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.policy-chackbox:checked + .policy-box::before {
+  background-color: #2196f3;
+  background-image: url(../img/icon\ check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.policy-chackbox:focus + .policy-box::before {
+  outline: 1px solid #2196f3;
+}
+.policy-box::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #212121;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+.form-submit {
+  width: 200px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 /*peculiarities-seсtion*/
 .section {
