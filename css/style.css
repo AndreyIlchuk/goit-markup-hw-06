@@ -225,6 +225,7 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   opacity: 1;
+  z-index: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
@@ -813,6 +814,7 @@ a {
   margin-top: 20px;
   width: 358px;
   height: 50px;
+  padding: 16px 17px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -821,3 +823,4 @@ a {
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
 }
+.
