@@ -415,9 +415,13 @@ button {
   padding: 60px 0;
   background-color: #2f303a;
 }
-.footer-container {
+.footer {
   width: 1200px;
   margin: 0 auto;
+}
+.footer-container {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   align-items: baseline;
 }

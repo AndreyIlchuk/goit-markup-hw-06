@@ -666,6 +666,7 @@ a {
   justify-content: space-between;
 }
 .client {
+  margin-right: 30px;
   width: 170px;
   height: 92px;
 }
@@ -702,15 +703,17 @@ a {
   padding: 60px 0;
   background-color: #2f303a;
 }
-.footer-container {
+.footer {
   width: 1200px;
   margin: 0 auto;
-
+}
+.footer-container {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   align-items: baseline;
 }
 .footer-adress {
-  display: flex;
   flex-direction: column;
   padding-top: 20px;
   font-family: Roboto;
