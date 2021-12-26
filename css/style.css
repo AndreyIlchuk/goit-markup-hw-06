@@ -253,13 +253,17 @@ a {
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
+.close-button {
+  margin-top: 5px;
+}
+
 .title-modal {
   display: block;
   margin-bottom: 20px;
@@ -290,13 +294,13 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   font-size: 16px;
-  margin-top: 12px;
+  margin-top: 15px;
   padding: 0 10px 0 40px;
   transition: 250ms linear border;
 }
 .form-messeg {
   resize: none;
-  height: 96px;
+  height: 120px;
   padding: 12px 16px;
 }
 .form-input:focus {
@@ -320,7 +324,7 @@ a {
 }
 .modal-icon {
   position: absolute;
-  top: 20px;
+  top: 50%;
   left: 10px;
   transition: 250ms linear fill;
 }
@@ -336,6 +340,7 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -360,6 +365,7 @@ a {
   background-position: center;
 }
 .policy-chackbox:focus + .policy-box::before {
+  border: none;
   outline: 1px solid #2196f3;
 }
 .policy-box::before {
