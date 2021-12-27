@@ -366,6 +366,7 @@ a {
   background-image: url(../img/icon\ check.svg);
   background-repeat: no-repeat;
   background-position: center;
+  border-color: transparent;
 }
 .policy-chackbox:focus + .policy-box::before {
   border: none;
